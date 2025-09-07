@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <header style="height: 8vh; display: flex; justify-content: space-between; margin: 0.25vh 1vw;">
+        <h1 style="margin: 0; height: 60px; line-height: 60px;">My Document Tool</h1>
+        <button id="convert-btn">Convert to DOCX</button>
+      </header>
+
+      <div class="main-content">
+        
+        <div id="sidebar"></div>
+
+        <div id="viewer" style="width: 100vw; height: 100vh;"></div>
+      </div>
+      <script type="module" src="/src/main.js"></script>
+    </div>
+  </body>
+</html>
