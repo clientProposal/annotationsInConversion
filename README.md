@@ -20,6 +20,7 @@ npm run runFrontAndBack
 The idea is just to demonstrate the degree of flexibility you have with XFDF annotations, and how this could be used to overcome the limitations when converting PDF to DOCX. 
 
 __Limitations__
+
 -The colour is not actually limited, it works fine. So clusters of colour-organised categories can be retained in docx.
 
 -The highlight annotations can be commented on in the right-hand panel, but when downloaded as a DOCX, this is NOT retained.
