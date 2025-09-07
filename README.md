@@ -21,6 +21,9 @@ The idea is just to demonstrate the degree of flexibility you have with XFDF ann
 
 __Limitations__
 -The colour is not actually limited, it works fine. So clusters of colour-organised categories can be retained in docx.
+
 -The highlight annotations can be commented on in the right-hand panel, but when downloaded as a DOCX, this is NOT retained.
+
 -However, I have demonstrated programmatically how you could take the content of the highlight comment from the right-hand panel and use this to build second annotation, a sticky note, on top of the highlight.
+
 -The sticky note will persist after the conversion to DOCX.
